@@ -53,9 +53,8 @@ int main(){
         {
             sum = sum + A[i][j] * x[j];
         }
-        x[i] = (A[i][n-1] - sum) / A[i][i];
+        x[i] = (A[i][n] - sum) / A[i][i];
     }
-
     printf("\nThe solution is: \n");
     for (i = 0; i < n; i++)
     {
